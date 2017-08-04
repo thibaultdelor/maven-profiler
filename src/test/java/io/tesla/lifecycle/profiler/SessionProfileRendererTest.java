@@ -14,7 +14,7 @@ import org.apache.maven.plugin.MojoExecution;
 import org.apache.maven.project.MavenProject;
 import org.eclipse.sisu.launch.InjectedTestCase;
 
-public class LifecycleProfilerTest extends InjectedTestCase {
+public class SessionProfileRendererTest extends InjectedTestCase {
 
   @Inject
   private SessionProfileRenderer sessionProfileRenderer;
