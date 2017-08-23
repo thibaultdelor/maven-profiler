@@ -8,5 +8,5 @@
 package io.tesla.lifecycle.profiler;
 
 public interface SessionProfileRenderer {
-  public void render(SessionProfile sessionProfile);
+  void render(SessionProfile sessionProfile);
 }

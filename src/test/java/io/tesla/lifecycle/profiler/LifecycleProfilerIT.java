@@ -49,7 +49,7 @@ public class LifecycleProfilerIT {
 		ByteArrayOutputStream baos = new ByteArrayOutputStream();
 		PrintStream ps = new PrintStream(baos);
 		int result = mavenCli.doMain(
-				new String[]{"clean","install", "-Dmaven.profile", "-Dmaven.ext.class.path="+jar.getAbsolutePath()},
+				new String[]{"clean", "install", "-Dmaven.profile", "-Dmaven.ext.class.path=" + jar.getAbsolutePath()},
 				sampleProject.getAbsoluteFile().getAbsolutePath(), ps, ps);
 		String content = new String(baos.toByteArray(), "UTF-8");
 
